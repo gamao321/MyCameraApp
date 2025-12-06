@@ -1,0 +1,24 @@
+/* Demo app container */
+.demo-container {
+    border-width: 2;
+    border-color: #ddd;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Camera button */
+.btn-camera {
+    background-color: #34C759;
+    color: white;
+    font-weight: bold;
+    padding: 15;
+}
+
+/* Original button style */
+.btn-primary {
+    background-color: #007AFF;
+    color: white;
+}
+
+.text-small {
+    font-size: 12;
+}

@@ -1,0 +1,10 @@
+<ActionBar title="Camera Demo"></ActionBar>
+
+<StackLayout class="p-20">
+    <Button text="Open Camera" (tap)="openCamera()" class="btn btn-primary"></Button>
+
+    <Image *ngIf="imageSrc"
+           [src]="imageSrc"
+           height="300"
+           stretch="aspectFit"></Image>
+</StackLayout>
